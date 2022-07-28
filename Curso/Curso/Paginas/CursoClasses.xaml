@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Curso.Paginas.CursoClasses">
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            <Frame BorderColor="Black" BackgroundColor="Gold" HeightRequest=" 40" HorizontalOptions="CenterAndExpand">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="100"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Label Text="CLASSES,OBJETOS"
+                       Grid.Row="0"
+                       Grid.Column="1"
+                       FontAttributes="Bold"
+                       FontSize="37"
+
+                       />
+                </Grid>
+            </Frame>
+            <Label Text="CARRO"
+                   BackgroundColor="Red"
+                   TextColor="White"
+                   FontSize="78"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"
+                   />
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Button Text="FREAR"
+                        Grid.Row="0"
+                        Grid.Column="0"
+                        BackgroundColor="Red"
+                        TextColor="Gold"
+                        FontAttributes="Bold"
+                        FontSize="30"
+                        Clicked="btnFrear_Clicked"
+                        />
+                <Button Text="ACELERAR"
+                        Grid.Row="0"
+                        Grid.Column="1"
+                        BackgroundColor="Blue"
+                        TextColor="Gold"
+                        FontAttributes="Bold"
+                        FontSize="30"
+                        Clicked="btnAcelerar_Clicked"
+                        />
+            </Grid>
+            <Label Text="" />
+            <Label Text="0" FontSize="Header"
+                   TextColor="Black"
+                   FontAttributes="Bold"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"
+                   x:Name="lblVelocidade"/>
+            <Label Text="KM/h"
+                   FontSize="30"
+                   HorizontalTextAlignment="Center"/>
+            <Label Text=""/>
+            <Label Text="MODELO"
+                   HorizontalTextAlignment="Center"
+                   FontSize="20"
+                   x:Name="lblModelo"/>
+            <Label Text="MARCA"
+                   HorizontalTextAlignment="Center"
+                   FontSize="20"
+                   x:Name="lblMarca"/>
+            <Label Text="COMBUSTÍVEL"
+                   HorizontalTextAlignment="Center"
+                   FontSize="20"
+                   x:Name="lblCombustivel"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

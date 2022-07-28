@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Curso.Paginas.CursoFrame">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Frame"
+                   BackgroundColor="Red"
+                   TextColor="White"
+                   FontSize="Large"
+                   HorizontalOptions="FillAndExpand"
+                   HorizontalTextAlignment="Center" />
+
+            <Label Text="A Xamarin.FormsFrame classe é um layout usado para encapsular uma exibição com uma borda que pode ser configurada com cor, sombra e outras opções. Os quadros são comumente usados para criar bordas em torno de controles, mas podem ser usados para criar uma interface do usuário mais complexa."/>
+            <Label Text="A Frame classe define as seguintes propriedades:"/>
+            <Label Text="BorderColor é um Color valor que determina a cor da Frame borda."/>
+            <Label Text="CornerRadius é um float valor que determina o raio arredondado do canto."/>
+            <Label Text="HasShadow é um bool valor que determina se o quadro tem uma sombra suspensa."/>
+
+            <Frame BorderColor="Gray"
+                   CornerRadius="5"
+                   Padding="8">
+                <StackLayout>
+                    <Label Text="Exemplo Frame"
+                           FontSize="Medium"
+                           FontAttributes="Bold" />
+                    <BoxView Color="Gray"
+                             HeightRequest="2"
+                             HorizontalOptions="Fill" />
+                    <Label Text="Os frames podem envolver layouts mais complexos para criar componentes de interface do usuário mais complexos, como este cartão"/>
+                </StackLayout>
+            </Frame>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

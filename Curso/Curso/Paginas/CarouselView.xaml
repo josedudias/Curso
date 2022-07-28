@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Curso.Paginas.CarouselView">
+    <ContentPage.Content>
+        
+        <StackLayout>
+            
+            <Label Text="CAROUSEL VIEW"
+                    FontSize="Large"
+                   TextColor="Blue"
+                   HorizontalTextAlignment="Center"/>
+            
+            <CarouselView x:Name="crv1">
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+
+                        <StackLayout>
+
+                            <Label Text="LIVROS DISPONÍVEIS"
+                                   FontSize="Title"
+                                   TextColor="Blue"
+                                   HorizontalTextAlignment="Center"/>
+
+                            <Label Text="{Binding Titulo}"
+                                   FontSize="28"
+                                   FontAttributes="Bold"
+                                   HorizontalTextAlignment="Center"/>
+
+                            <Image Source="{Binding Imagem}"
+                                   HeightRequest="180"/>
+                            
+                        </StackLayout>
+                        
+                        
+                        
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+            
+            
+            
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

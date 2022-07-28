@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Curso.Paginas.CursoImgButton">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="ImageButton"
+                   BackgroundColor="Red"
+                   TextColor="White"
+                   FontSize="Large"
+                   HorizontalOptions="FillAndExpand"
+                   HorizontalTextAlignment="Center" />
+            <Label Text="O ImageButton modo de exibição combina a exibição e Image a Button exibição para criar um botão cujo conteúdo é uma imagem. O usuário pressiona com um ImageButton dedo ou clica nele com um mouse para direcionar o aplicativo para realizar uma tarefa específica. No entanto, ao contrário do Button modo de exibição, o modo de exibição ImageButton não tem nenhum conceito de aparência de texto e texto."/>
+            <Label Text="Aparência de ImageButton"/>
+            <Label Text="Aspect é como a imagem será dimensionada para se ajustar à área de exibição."/>
+            <Label Text="BorderColor é a cor de uma área ao redor do ImageButton."/>
+            <Label Text="BorderWidth é a largura da borda."/>
+            <Label Text="CornerRadius é o raio de canto do ImageButton."/>
+            <Label Text="A Aspect propriedade pode ser definida como um dos membros da Aspect enumeração:"/>
+            <Label Text="Fill - estende a imagem para preencher completamente e exatamente o ImageButton. Isso pode resultar na distorção da imagem."/>
+            <Label Text="AspectFill - corta a imagem para que ela preencha o ImageButton tempo preservando a taxa de proporção."/>
+            <Label Text="AspectFit – caixas de correio da imagem (se necessário) para que toda a imagem se ajuste à ImageButton, com espaço em branco adicionado à parte superior/inferior ou laterais, dependendo se a imagem é larga ou alta. Esse é o valor padrão da Aspect enumeração."/>
+            <ImageButton Source="receita.jpg"
+                         HorizontalOptions="FillAndExpand"
+                         VerticalOptions="CenterAndExpand"
+                         WidthRequest="180"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

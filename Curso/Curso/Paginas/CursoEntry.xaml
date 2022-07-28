@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Curso.Paginas.CursoEntry">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Entry"
+                   BackgroundColor="Red"
+                   TextColor="White"
+                   FontSize="Large"
+                   HorizontalOptions="FillAndExpand"
+                   HorizontalTextAlignment="Center" />
+            <Label Text="O Xamarin.FormsEntry é usado para entrada de texto de linha única. O Entry, como o modo de exibição, dá suporte a Editor vários tipos de teclado. Além disso, o Entry campo pode ser usado como um campo de senha."/>
+            <Label Text="Texto de transformação"/>
+            <Label Text="None indica que o texto não será transformado."/>
+            <Label Text="Default indica que o comportamento padrão para a plataforma será usado. Este é o valor padrão da propriedade TextTransform."/>
+            <Label Text="Lowercase indica que o texto será transformado em minúsculas."/>
+            <Label Text="Uppercase indica que o texto será transformado em maiúscula."/>
+
+            <Entry TextTransform="Uppercase" />
+            <Label Text="Entry fornece a IsPassword propriedade. Quando IsPassword for true, o conteúdo do campo será apresentado como círculos pretos:"/>
+            <Entry IsPassword="true" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

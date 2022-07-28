@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Curso.Paginas.Curso">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Curso"
+                   BackgroundColor="Gold"
+                   TextColor="Black"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   HorizontalOptions="FillAndExpand"
+                   VerticalOptions="Center" />
+
+            <Button Text="BUTTON"
+                    CornerRadius="30"
+                    BackgroundColor="Black"
+                    TextColor="Gold"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    Margin="30,0,30,0"
+                    Clicked="btn_Botao" />
+            
+            <Button Text="FRAME"
+                    CornerRadius="30"
+                    BackgroundColor="Black"
+                    TextColor="Gold"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    Margin="30,0,30,0"
+                    Clicked="btn_Frame" />
+            
+            <Button Text="ENTRY"
+                    CornerRadius="30"
+                    BackgroundColor="Black"
+                    TextColor="Gold"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    Margin="30,0,30,0"
+                    Clicked="btn_Entry" />
+            
+            <Button Text="IMAGEBUTTON"
+                    CornerRadius="30"
+                    BackgroundColor="Black"
+                    TextColor="Gold"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    Margin="30,0,30,0"
+                    Clicked="btn_ImgButton" />
+
+            <Button Text="LISTVIEW"
+                    CornerRadius="30"
+                    BackgroundColor="Black"
+                    TextColor="Gold"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    Margin="30,0,30,0"
+                    Clicked="btn_ListView" />
+
+            <Button Text="LIST T"
+                    CornerRadius="30"
+                    BackgroundColor="Black"
+                    TextColor="Gold"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    Margin="30,0,30,0"
+                    Clicked="btn_ListT" />
+
+            <Button Text="CLASSES"
+                    CornerRadius="30"
+                    BackgroundColor="Black"
+                    TextColor="Gold"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    Margin="30,0,30,0"
+                    Clicked="btn_Classes" />
+
+            <Button Text="BANCO DE DADOS"
+                    CornerRadius="30"
+                    BackgroundColor="Black"
+                    TextColor="Gold"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    Margin="30,0,30,0"
+                    Clicked="btn_BD" />
+            
+            <Button Text="CAROUSEL VIEW"
+                    CornerRadius="30"
+                    BackgroundColor="Black"
+                    TextColor="Gold"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    Margin="30,0,30,0"
+                    Clicked="btn_CarouselView" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

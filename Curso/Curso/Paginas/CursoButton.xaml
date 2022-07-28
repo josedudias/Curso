@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Curso.Paginas.CursoButton">
+    <ContentPage.Content>
+        <StackLayout Margin="10">
+            <Frame Margin="0" BackgroundColor="Gold" HeightRequest="40" BorderColor="Black">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="120"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Row="0" Grid.Column="0" Text="BOTÃO"/>
+                    <Label Text="BOTÃO"
+                           Grid.Row="0"
+                           Grid.Column="1"
+                           FontAttributes="Bold"
+                           FontSize="35"/>
+                </Grid>
+            </Frame>
+            <Label Text="O elemento Botão é um dos pincipais objetos do Xamarin"/>
+            <Label Text="Com ele é possivel criar um botão com um método de "/>
+            <Label Text="PROPRIEDADES mais usadas"/>
+            <Label Text="TEXT -> Define o texto que vai ser exibido"/>
+            <Label Text="TEXTCOLOR -> Cor do texto"/>
+            <Label Text="BORDERCOLOR -> Cor da borda"/>
+            <Label Text="BORDERWIDTH -> Largura da Borda"/>
+            <Label Text="HEIGHTREQUEST -> Altura do Botão em pixels"/>
+            <Label Text="WIDTHREQUEST -> Largura do Botão em pixels"/>
+            <Label Text="MARGIN -> Margem em relação a página"/>
+            <Label Text="CORNERRADIUS -> Cantos arredondados exemplo: 30"/>
+
+            <Button Text="Exemplo de botão"
+                    TextColor="Red"
+                    CornerRadius="20"
+                    Margin="30"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
